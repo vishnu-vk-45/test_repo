@@ -14,12 +14,12 @@ int main()
     array<int,4> arr{1,2,3,4};
     array a{8,3,4,5};
 
-    // sort(a.begin(),a.end(),greater<int>());
-    // for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
+    sort(a.begin(),a.end(),greater<int>());
+    for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
 
-    // array <int,2>b{1};
-    // b.fill(1);
-    // for_each(b.begin(),b.end(),[](int x){cout<<x<<" ";});
+    array <int,2>b{1};
+    b.fill(1);
+    for_each(b.begin(),b.end(),[](int x){cout<<x<<" ";});
 
     
     // cout<<arr.front()<<endl;
