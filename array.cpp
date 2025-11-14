@@ -33,15 +33,15 @@ int main()
     // }
     
     
-    sort(arr.begin(),arr.end(),[](int a,int b){return a<b;});
+    // sort(arr.begin(),arr.end(),[](int a,int b){return a<b;});
     
     
     // cout<<boolalpha<<arr.empty();
     // cout<<arr.max_size()<<" "<<arr.size();
     
-    arr.swap(a);
-    for_each(arr.begin(),arr.end(),[](int x){cout<<x<<" ";});
-    for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
+    // arr.swap(a);
+    // for_each(arr.begin(),arr.end(),[](int x){cout<<x<<" ";});
+    // for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
 
     // cout<<get<5>(a);
 
