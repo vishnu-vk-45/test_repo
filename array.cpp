@@ -33,7 +33,7 @@ int main()
     // }
     
     
-    // sort(arr.begin(),arr.end(),[](int a,int b){return a<b;});
+    sort(arr.begin(),arr.end(),[](int a,int b){return a<b;});
     
     
     // cout<<boolalpha<<arr.empty();
