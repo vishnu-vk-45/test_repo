@@ -39,7 +39,7 @@ int main()
     cout<<boolalpha<<arr.empty();
     cout<<arr.max_size()<<" "<<arr.size();
     
-    // arr.swap(a);
+    arr.swap(a);
     // for_each(arr.begin(),arr.end(),[](int x){cout<<x<<" ";});
     // for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
 
