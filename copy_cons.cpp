@@ -27,10 +27,7 @@ public:
     }
 };
 
-void printFraction(Fraction f) // f is pass by value
-{
-    f.print();
-}
+
 
 Fraction generateFraction(int n, int d)
 {
@@ -41,8 +38,6 @@ Fraction generateFraction(int n, int d)
 int main()
 {
     Fraction f2 { generateFraction(1, 2) }; // Fraction is returned using copy constructor
-
-    printFraction(f2); // f2 is copied into the function parameter using copy constructor
 
     return 0;
 }
