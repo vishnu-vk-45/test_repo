@@ -14,12 +14,12 @@ public:
     }
 
     // Copy constructor
-    Fraction(const Fraction& fraction)
-        : m_numerator{ fraction.m_numerator }
-        , m_denominator{ fraction.m_denominator }
-    {
-        std::cout << "Copy constructor called\n";
-    }
+    // Fraction(const Fraction& fraction)
+    //     : m_numerator{ fraction.m_numerator }
+    //     , m_denominator{ fraction.m_denominator }
+    // {
+    //     std::cout << "Copy constructor called\n";
+    // }
 
     void print() const
     {
