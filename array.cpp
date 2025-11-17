@@ -14,8 +14,8 @@ int main()
     array<int,4> arr{1,2,3,4};
     array a{8,3,4,5};
 
-    // sort(a.begin(),a.end(),greater<int>());
-    // for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
+    sort(a.begin(),a.end(),greater<int>());
+    for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
 
     // array <int,2>b{1};
     // b.fill(1);
@@ -36,10 +36,10 @@ int main()
     // sort(arr.begin(),arr.end(),[](int a,int b){return a<b;});
     
     
-    // cout<<boolalpha<<arr.empty();
-    // cout<<arr.max_size()<<" "<<arr.size();
+    cout<<boolalpha<<arr.empty();
+    cout<<arr.max_size()<<" "<<arr.size();
     
-    // arr.swap(a);
+    arr.swap(a);
     // for_each(arr.begin(),arr.end(),[](int x){cout<<x<<" ";});
     // for_each(a.begin(),a.end(),[](int x){cout<<x<<" ";});
 
