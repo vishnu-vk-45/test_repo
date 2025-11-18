@@ -3,6 +3,7 @@
 #include<iostream>
 using namespace std;
 
+//Interface class for ErrorLog
 class IErrorLog
 {
 public:
