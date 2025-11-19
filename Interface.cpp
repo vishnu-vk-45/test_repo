@@ -39,7 +39,7 @@ double mySqrt(double value, IErrorLog& log)
         log.writeError("Tried to take square root of value less than 0");
         return 0.0;
     }
-
+    std::cout<<"Hi\n";
     return std::sqrt(value);
 }
 
