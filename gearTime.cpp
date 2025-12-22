@@ -40,11 +40,3 @@ class Gear
 };
 
 
-int main()
-{
-    Gear g;
-    auto gTime = g.getGearTime();
-
-    for(auto i:gTime)
-        cout<<i.first<<"- "<<i.second;
-}
