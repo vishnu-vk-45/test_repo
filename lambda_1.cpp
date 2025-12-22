@@ -9,6 +9,12 @@ struct Student
     int points;
 };
 
+struct Teacher
+{
+    string name;
+    
+};
+
 
 int main()
 {
