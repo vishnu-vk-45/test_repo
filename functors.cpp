@@ -14,8 +14,3 @@ class Increment
 
 };
 
-int main()
-{
-    Increment increment(15);
-    cout<<increment(1);
-}
