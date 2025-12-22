@@ -29,17 +29,5 @@ class Child : public Base
 };
 
 
-int main()
-{
-    Child c1;
-    c1.getx_m();
 
-
-    // Base ptr(5,10);
-    // Base& ref = *ptr;
-
-    // ptr.getx_m();
-
-
-}
 
